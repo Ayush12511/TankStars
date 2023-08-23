@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.9" tiledversion="1.9.2" orientation="orthogonal" renderorder="right-down" width="45" height="22" tilewidth="32" tileheight="32" infinite="0" nextlayerid="4" nextobjectid="10">
+ <tileset firstgid="1" source="Mario.tsx"/>
+ <tileset firstgid="6365" source="TankStars.tsx"/>
+ <tileset firstgid="22649" source="AA.tsx"/>
+ <layer id="1" name="BG" width="45" height="22">
+  <data encoding="base64" compression="zlib">
+   eJztz0EKACAIRFFP0f2vJV6mTatQ0KxF8BcPRCaZbIgYAAAAgBZdKplMPpPVzc1+0c6bo12ms3e36uRt9Kdul5ed8Z8JRcKijA==
+  </data>
+ </layer>
+ <layer id="2" name="Graphichs" width="45" height="22">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIJRMApGwSgYBaNg+ILbYvgxtcAtMepjdLeSohcZdEkMPdwWMYpH8fDBALWu4d8=
+  </data>
+ </layer>
+ <objectgroup id="3" name="Object">
+  <object id="4" x="-2.21122" y="542.854" width="1440.61" height="158.102"/>
+ </objectgroup>
+</map>

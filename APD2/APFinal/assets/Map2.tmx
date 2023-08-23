@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.9" tiledversion="1.9.2" orientation="orthogonal" renderorder="right-down" width="30" height="20" tilewidth="32" tileheight="32" infinite="0" nextlayerid="5" nextobjectid="28">
+ <tileset firstgid="1" source="GameTiles1.tsx"/>
+ <tileset firstgid="6365" source="AA1.tsx"/>
+ <layer id="1" name="BG" width="30" height="20">
+  <data encoding="base64" compression="zlib">
+   eJxrEWNgaBnFo3gUj+JRPIpH8SgexVTDAO/yaQA=
+  </data>
+ </layer>
+ <layer id="2" name="Graphics" width="30" height="20">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIJRMAqoDx5IMDA8BOJHEvS18xUSptRuYvyAbic5dreIITA2P8DkCNmJz26YX9D596AYlzn3CKjBpgebX4hxN6UY5l5kMVrbiQsDAEhWewM=
+  </data>
+ </layer>
+ <objectgroup id="3" name="Ground">
+  <object id="2" name="plain" class="solid" x="64" y="576" width="896" height="64"/>
+  <object id="4" name="plain" class="solid" x="256" y="480" width="32" height="96"/>
+  <object id="5" name="plain" class="solid" x="128" y="544" width="128" height="32"/>
+  <object id="7" name="plain" class="solid" x="288" y="544" width="384" height="32"/>
+  <object id="8" name="plain" class="solid" x="608" y="416" width="32" height="128"/>
+  <object id="9" name="plain" class="solid" x="672" y="544" width="96" height="32"/>
+ </objectgroup>
+ <objectgroup id="4" name="Slope">
+  <object id="20" name="tilted" class="slope" x="64" y="579">
+   <polygon points="0,0 -64,64 0,64"/>
+  </object>
+  <object id="21" name="tilted" class="slope" x="128" y="547">
+   <polygon points="0,0 -64,32 0,32"/>
+  </object>
+  <object id="22" name="tilted" class="slope" x="256" y="483">
+   <polygon points="0,0 -64,64 0,64"/>
+  </object>
+  <object id="23" name="tilted" class="slope" x="288" y="483">
+   <polygon points="0,0 64,64 0,64"/>
+  </object>
+  <object id="24" name="tilted" class="slope" x="608" y="419">
+   <polygon points="0,0 -128,128 0,128"/>
+  </object>
+  <object id="25" name="tilted" class="slope" x="640" y="419">
+   <polygon points="0,0 128,128 0,128"/>
+  </object>
+  <object id="26" name="tilted" class="slope" x="800" y="579">
+   <polygon points="0,0 -32,-32 -32,0"/>
+  </object>
+  <object id="27" name="tilted" class="slope" x="960" y="515">
+   <polygon points="0,0 -96,64 0,64"/>
+  </object>
+ </objectgroup>
+</map>
